@@ -1,4 +1,4 @@
-FROM debian@sha256:cc92da07b99dd5c078cb5583fdb4ba639c7c9c14eb78508a2be285ca67cc738a
+FROM debian@sha256:833c135acfe9521d7a0035a296076f98c182c542a2b6b5a0fd7063d355d696be
 
 LABEL maintainer="Armando Castillo H"
 
