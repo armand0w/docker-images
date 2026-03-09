@@ -44,7 +44,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Build and push
-        uses: docker/build-push-action@v6
+        uses: docker/build-push-action@v7
         with:
           context: images/java/21/headless
           platforms: linux/386,linux/arm/v6,linux/arm/v7,linux/arm/v8,linux/arm64,linux/amd64
